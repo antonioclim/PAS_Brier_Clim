@@ -50,3 +50,6 @@ The `generate_stem_sim.py` script exposes several command-line parameters to cus
 
 **Example usage:** To illustrate, the following command generates 3 tests each with 30 questions, using a fixed seed of 2025, writing the output to `experiment_dataset.csv` and compressing it:
 
+```powershell
+python generate_stem_sim.py --num_tests 3 --num_questions 30 --seed 2025 --output experiment_dataset.csv --zip
+
